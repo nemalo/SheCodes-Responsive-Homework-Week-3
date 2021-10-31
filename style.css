@@ -26,10 +26,6 @@ h2 {
   font-size: 48px;
 }
 
-.initial-greeting {
-  margin-top: 10%;
-}
-
 h3 {
   font-size: 24px;
   opacity: 0.7;
@@ -42,6 +38,22 @@ p {
   line-height: 1.5;*/
   font-size: 18px;
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+.initial-greeting {
+  margin-top: 15%;
 }
 
 .navigation-links {
