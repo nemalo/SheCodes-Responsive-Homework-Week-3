@@ -2,6 +2,8 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --maximum-yellow-red: #f5b632ff;
+  --alloy-orange: #c0651eff;
 }
 
 /*body {
@@ -50,6 +52,10 @@ p {
 
 .navigation-links a {
   margin: 20px;
+}
+
+a:hover {
+  color: var(--maximum-yellow-red);
 }
 
 .primary-link {
